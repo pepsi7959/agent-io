@@ -5,13 +5,23 @@
 	<meta charset="UTF-8">
 	<title>
 	<?php echo uniqid(); ?>
-    	</title>
+	</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159356811-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+	
+	gtag('config', 'UA-159356811-1');
+	</script>
+
 </head>
 
-<body style="background-color: black; text-align: center; color: white;">
+<body style="background-color: #011627; text-align: center; color: #FDFFFC;">
 	<br><br>
 	<span id="time_counter" style="display: none;">120</span>
-	<a style="font-size: 50px; font-weight: bold; color: orange;" id="next_btn" href="#">สมัครกดที่นี่</a>
+	<a style="font-size: 50px; font-weight: bold; color: #F71735;" id="next_btn" href="#">สมัครกดที่นี่</a>
 	<br>
 	<br>
 	คุณคือ VIP <br>
